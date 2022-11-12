@@ -1,0 +1,11 @@
+#pragma once
+#include"Chain_of_Responsibility.h"
+#include"Command.h"
+#include"Iterator.h"
+#include"Mediator.h"
+#include"Memento.h"
+#include"Observer.h"
+#include"State.h"
+#include"Strategy.h"
+#include"Template_Method.h"
+#include"Visitor.h"

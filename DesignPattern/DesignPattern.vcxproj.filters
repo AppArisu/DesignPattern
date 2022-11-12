@@ -15,74 +15,85 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sauce\Abstract_Factory.cpp">
+    <ClInclude Include="Sauce\Chain_of_Responsibility.h">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\Command.h">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\Iterator.h">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\Mediator.h">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\Memento.h">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\Observer.h">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\Strategy.h">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\State.h">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\Template_Method.h">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\Visitor.h">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\Abstract_Factory.h">
       <Filter>Sauce\生成</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Builder.cpp">
+    </ClInclude>
+    <ClInclude Include="Sauce\Builder.h">
       <Filter>Sauce\生成</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Factory_Method.cpp">
+    </ClInclude>
+    <ClInclude Include="Sauce\Factory_Method.h">
       <Filter>Sauce\生成</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Prototype.cpp">
+    </ClInclude>
+    <ClInclude Include="Sauce\Prototype.h">
       <Filter>Sauce\生成</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Singleton.cpp">
+    </ClInclude>
+    <ClInclude Include="Sauce\Singleton.h">
       <Filter>Sauce\生成</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Adapter.cpp">
+    </ClInclude>
+    <ClInclude Include="Sauce\Adapter.h">
       <Filter>Sauce\構造</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Bridge.cpp">
+    </ClInclude>
+    <ClInclude Include="Sauce\Facade.h">
       <Filter>Sauce\構造</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Composite.cpp">
+    </ClInclude>
+    <ClInclude Include="Sauce\Flyweight.h">
       <Filter>Sauce\構造</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Decorator.cpp">
+    </ClInclude>
+    <ClInclude Include="Sauce\Bridge.h">
       <Filter>Sauce\構造</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Facade.cpp">
+    </ClInclude>
+    <ClInclude Include="Sauce\Composite.h">
       <Filter>Sauce\構造</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Flyweight.cpp">
+    </ClInclude>
+    <ClInclude Include="Sauce\Decorator.h">
       <Filter>Sauce\構造</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Proxy.cpp">
+    </ClInclude>
+    <ClInclude Include="Sauce\Proxy.h">
       <Filter>Sauce\構造</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Iterator.cpp">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Memento.cpp">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\State.cpp">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Command.cpp">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Mediator.cpp">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Observer.cpp">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Strategy.cpp">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Template_Method.cpp">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Visitor.cpp">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="Sauce\Generation.h">
+      <Filter>Sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\Structure.h">
+      <Filter>Sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce\Behavior.h">
+      <Filter>Sauce</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="Sauce\Main.cpp">
       <Filter>Sauce</Filter>
-    </ClCompile>
-    <ClCompile Include="Sauce\Chain_of_Responsibility.cpp">
-      <Filter>Sauce\振る舞い</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
