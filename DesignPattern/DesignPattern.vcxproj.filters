@@ -51,9 +51,6 @@
     <ClCompile Include="Sauce\Proxy.cpp">
       <Filter>Sauce\構造</Filter>
     </ClCompile>
-    <ClCompile Include="Sauce\Chain_of_Responsibility.cpp">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClCompile>
     <ClCompile Include="Sauce\Iterator.cpp">
       <Filter>Sauce\振る舞い</Filter>
     </ClCompile>
@@ -79,6 +76,12 @@
       <Filter>Sauce\振る舞い</Filter>
     </ClCompile>
     <ClCompile Include="Sauce\Visitor.cpp">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Main.cpp">
+      <Filter>Sauce</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Chain_of_Responsibility.cpp">
       <Filter>Sauce\振る舞い</Filter>
     </ClCompile>
   </ItemGroup>

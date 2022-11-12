@@ -3,7 +3,7 @@
     このインスタンスへの大域アクセス・ポイントを提供します。
 */
 
-int main()
+class Singleton
 {
-    return 0;
-}
+
+};

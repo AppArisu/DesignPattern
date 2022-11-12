@@ -3,7 +3,7 @@
      具象クラスを指定することなく生成することを可能とします。
 */
 
-int main()
+class Abstract_Factory
 {
-    return 0;
-}
+
+};

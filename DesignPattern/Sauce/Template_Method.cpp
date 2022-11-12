@@ -3,7 +3,7 @@
     サブクラスは構造を変えることなくアルゴリズムの特定のステップを上書きします。
 */
 
-int main()
+class Template_Method
 {
-    return 0;
-}
+
+};

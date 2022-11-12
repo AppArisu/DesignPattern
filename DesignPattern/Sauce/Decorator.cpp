@@ -3,7 +3,7 @@
     それらのオブジェクトに新しい振る舞いを付け加えます。
 */
 
-int main()
+class Decorator
 {
-    return 0;
-}
+
+};

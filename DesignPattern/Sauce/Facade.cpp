@@ -3,7 +3,7 @@
     簡素化されたインターフェースを提供します。
 */
 
-int main()
+class Facade
 {
-    return 0;
+
 }

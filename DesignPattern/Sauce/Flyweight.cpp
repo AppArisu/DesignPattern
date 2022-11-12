@@ -3,7 +3,7 @@
     利用可能な RAM により多くのオブジェクトを収められるようにします。
 */
 
-int main()
+class Flyweight
 {
-    return 0;
-}
+
+};

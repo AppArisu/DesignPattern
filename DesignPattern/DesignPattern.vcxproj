@@ -139,6 +139,7 @@
     <ClCompile Include="Sauce\Factory_Method.cpp" />
     <ClCompile Include="Sauce\Flyweight.cpp" />
     <ClCompile Include="Sauce\Iterator.cpp" />
+    <ClCompile Include="Sauce\Main.cpp" />
     <ClCompile Include="Sauce\Mediator.cpp" />
     <ClCompile Include="Sauce\Memento.cpp" />
     <ClCompile Include="Sauce\Observer.cpp" />

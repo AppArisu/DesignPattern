@@ -3,7 +3,7 @@
     しかし、 サブクラスでは作成されるオブジェクトの型を変更することができます。
 */
 
-int main()
+class Factory_Method
 {
-    return 0;
-}
+
+};
