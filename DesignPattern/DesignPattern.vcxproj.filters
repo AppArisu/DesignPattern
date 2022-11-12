@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sauce">
+      <UniqueIdentifier>{14621682-2bc0-4d41-8c85-c1a5dfa1d3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sauce\振る舞い">
+      <UniqueIdentifier>{750e7fd1-2e7c-4c47-b31d-d08843a30886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sauce\構造">
+      <UniqueIdentifier>{db8210ca-1f80-470a-b99e-6beafbddc903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sauce\生成">
+      <UniqueIdentifier>{9451e677-8363-448f-bb86-7779d4a730c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sauce\Abstract_Factory.cpp">
+      <Filter>Sauce\生成</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Builder.cpp">
+      <Filter>Sauce\生成</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Factory_Method.cpp">
+      <Filter>Sauce\生成</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Prototype.cpp">
+      <Filter>Sauce\生成</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Singleton.cpp">
+      <Filter>Sauce\生成</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Adapter.cpp">
+      <Filter>Sauce\構造</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Bridge.cpp">
+      <Filter>Sauce\構造</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Composite.cpp">
+      <Filter>Sauce\構造</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Decorator.cpp">
+      <Filter>Sauce\構造</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Facade.cpp">
+      <Filter>Sauce\構造</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Flyweight.cpp">
+      <Filter>Sauce\構造</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Proxy.cpp">
+      <Filter>Sauce\構造</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Chain_of_Responsibility.cpp">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Iterator.cpp">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Memento.cpp">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\State.cpp">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Command.cpp">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Mediator.cpp">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Observer.cpp">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Strategy.cpp">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Template_Method.cpp">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce\Visitor.cpp">
+      <Filter>Sauce\振る舞い</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
