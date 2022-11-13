@@ -84,7 +84,7 @@ private:
 
 // クライアントコードがConcrete IteratorまたはCollectionについて知っている場合と知らない場合があります。
 // この実装では、コンテナは汎用であるためintまたはカスタムクラスを使用します。
-void ClientCode() {
+void Iterator_Start() {
     std::cout << "________________intを持つイテレータ______________________________________" << std::endl;
     Container<int> cont;
 
@@ -110,9 +110,4 @@ void ClientCode() {
     }
     delete it;
     delete it2;
-}
-
-void Iterator_Start()
-{
-    ClientCode();
 }
