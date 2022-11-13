@@ -46,7 +46,8 @@ int main()
     int stateChanger = 0;
 
     std::cout << "U‚é•‘‚¢‚ÉŠÖ‚·‚é‚ÌƒfƒUƒCƒ“ƒpƒ^[ƒ“‚Ì—á‚ğ‘I‚ÔF\n" <<
-        "‚PFChain of Responsibility\n‚QFCommand\n‚RFIterator\n‚SFMediator\n‚TFMemento" << std::endl;
+        "‚PFChain of Responsibility\n‚QFCommand\n‚RFIterator\n‚SFMediator\n‚TFMemento\n" <<
+        "‚UFObserver\n‚VFState\n‚WFStrtegy\n‚XFTemplate_Method\n‚P‚OFVisitor" << std::endl;
     std::cout << "”Ô†F";
     std::cin >> stateChanger;
     std::cout << std::endl;
@@ -70,6 +71,7 @@ int main()
         Memento_Start();
         break;
     case Behavior::Observer_:
+        Observer_Start();
         break;
     case Behavior::State_:
         break;
