@@ -46,7 +46,7 @@ int main()
     int stateChanger = 0;
 
     std::cout << "U‚é•‘‚¢‚ÉŠÖ‚·‚é‚ÌƒfƒUƒCƒ“ƒpƒ^[ƒ“‚Ì—á‚ğ‘I‚ÔF\n" <<
-        "‚PFChain of Responsibility\n‚QFCommand\n‚RFIterator\n‚SFMediator" << std::endl;
+        "‚PFChain of Responsibility\n‚QFCommand\n‚RFIterator\n‚SFMediator\n‚TFMemento" << std::endl;
     std::cout << "”Ô†F";
     std::cin >> stateChanger;
     std::cout << std::endl;
@@ -66,6 +66,8 @@ int main()
         Mediator_Start();
         break;
     case Behavior::Memento_:
+        std::srand(static_cast<unsigned int>(std::time(NULL)));
+        Memento_Start();
         break;
     case Behavior::Observer_:
         break;
