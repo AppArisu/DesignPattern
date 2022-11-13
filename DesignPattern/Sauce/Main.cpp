@@ -45,7 +45,9 @@ int main()
 {
     int stateChanger = 0;
 
-    std::cout << "振る舞いに関するのデザインパターンの例を選ぶ：";
+    std::cout << "振る舞いに関するのデザインパターンの例を選ぶ：\n" <<
+        "１：Chain of Responsibility\n２：Command\n３：Iterator" << std::endl;
+    std::cout << "番号：";
     std::cin >> stateChanger;
     std::cout << std::endl;
 
@@ -58,6 +60,7 @@ int main()
         Command_Start();
         break;
     case Behavior::Iterator_:
+        Iterator_Start();
         break;
     case Behavior::Mediator_:
         break;
