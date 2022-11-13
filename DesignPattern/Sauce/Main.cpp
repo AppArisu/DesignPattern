@@ -9,36 +9,36 @@
 
 enum Behavior
 {
-    Chain_of_Responsibility = 1,
-    Command,
-    Iterator,
-    Mediator,
-    Memento,
-    Observer,
-    State,
-    Strtegy,
-    Template_Method,
-    Visitor
+    Chain_of_Responsibility_ = 1,
+    Command_,
+    Iterator_,
+    Mediator_,
+    Memento_,
+    Observer_,
+    State_,
+    Strtegy_,
+    Template_Method_,
+    Visitor_
 };
 
 enum Generation
 {
-    Abstract_Factory = 1,
-    Builder,
-    Factory_Method,
-    Prototype,
-    Singleton
+    Abstract_Factory_ = 1,
+    Builder_,
+    Factory_Method_,
+    Prototype_,
+    Singleton_
 };
 
 enum Structure
 {
-    Adapter = 1,
-    Bridge,
-    Composite,
-    Decorator,
-    Facade,
-    Flyweight,
-    Proxy
+    Adapter_ = 1,
+    Bridge_,
+    Composite_,
+    Decorator_,
+    Facade_,
+    Flyweight_,
+    Proxy_
 };
 
 int main()
@@ -47,29 +47,31 @@ int main()
 
     std::cout << "振る舞いに関するのデザインパターンの例を選ぶ：";
     std::cin >> stateChanger;
+    std::cout << std::endl;
 
     switch (stateChanger)
     {
-    case Behavior::Chain_of_Responsibility:
+    case Behavior::Chain_of_Responsibility_:
         CofR_Start();
         break;
-    case Behavior::Command:
+    case Behavior::Command_:
+        Command_Start();
         break;
-    case Behavior::Iterator:
+    case Behavior::Iterator_:
         break;
-    case Behavior::Mediator:
+    case Behavior::Mediator_:
         break;
-    case Behavior::Memento:
+    case Behavior::Memento_:
         break;
-    case Behavior::Observer:
+    case Behavior::Observer_:
         break;
-    case Behavior::State:
+    case Behavior::State_:
         break;
-    case Behavior::Strtegy:
+    case Behavior::Strtegy_:
         break;
-    case Behavior::Template_Method:
+    case Behavior::Template_Method_:
         break;
-    case Behavior::Visitor:
+    case Behavior::Visitor_:
         break;
     default:
         std::cout << "何もせず終了します" << std::endl;
