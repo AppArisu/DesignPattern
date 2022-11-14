@@ -74,8 +74,10 @@ int main()
         Observer_Start();
         break;
     case Behavior::State_:
+        State_Start();
         break;
     case Behavior::Strtegy_:
+        Strategy_Start();
         break;
     case Behavior::Template_Method_:
         break;
