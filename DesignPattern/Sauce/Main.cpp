@@ -27,6 +27,7 @@ int main()
     switch (stateChanger)
     {
     case Structure::Adapter_:
+        Adapter_Start();
         break;
     case Structure::Bridge_:
         break;
