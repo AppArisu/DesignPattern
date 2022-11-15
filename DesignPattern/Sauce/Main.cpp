@@ -33,6 +33,7 @@ int main()
         Bridge_Start();
         break;
     case Structure::Composite_:
+        Composite_Start();
         break;
     case Structure::Decorator_:
         break;
