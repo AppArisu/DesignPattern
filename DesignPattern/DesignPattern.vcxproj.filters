@@ -4,62 +4,11 @@
     <Filter Include="Sauce">
       <UniqueIdentifier>{14621682-2bc0-4d41-8c85-c1a5dfa1d3f2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Sauce\振る舞い">
-      <UniqueIdentifier>{750e7fd1-2e7c-4c47-b31d-d08843a30886}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Sauce\構造">
       <UniqueIdentifier>{db8210ca-1f80-470a-b99e-6beafbddc903}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Sauce\生成">
-      <UniqueIdentifier>{9451e677-8363-448f-bb86-7779d4a730c6}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Sauce\Chain_of_Responsibility.h">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Command.h">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Iterator.h">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Mediator.h">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Memento.h">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Observer.h">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Strategy.h">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\State.h">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Template_Method.h">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Visitor.h">
-      <Filter>Sauce\振る舞い</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Abstract_Factory.h">
-      <Filter>Sauce\生成</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Builder.h">
-      <Filter>Sauce\生成</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Factory_Method.h">
-      <Filter>Sauce\生成</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Prototype.h">
-      <Filter>Sauce\生成</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Singleton.h">
-      <Filter>Sauce\生成</Filter>
-    </ClInclude>
     <ClInclude Include="Sauce\Adapter.h">
       <Filter>Sauce\構造</Filter>
     </ClInclude>
@@ -81,13 +30,7 @@
     <ClInclude Include="Sauce\Proxy.h">
       <Filter>Sauce\構造</Filter>
     </ClInclude>
-    <ClInclude Include="Sauce\Generation.h">
-      <Filter>Sauce</Filter>
-    </ClInclude>
     <ClInclude Include="Sauce\Structure.h">
-      <Filter>Sauce</Filter>
-    </ClInclude>
-    <ClInclude Include="Sauce\Behavior.h">
       <Filter>Sauce</Filter>
     </ClInclude>
   </ItemGroup>
