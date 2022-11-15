@@ -15,7 +15,7 @@ int main()
 {
     int stateChanger = 0;
 
-    std::cout << "振る舞いに関するのデザインパターンの例を選ぶ：\n" <<
+    std::cout << "生成に関するのデザインパターンの例を選ぶ：\n" <<
         "１：Abstract Factory\n２：Builder\n３：Factory Method\n４：Prototype\n５：Singleton" << std::endl;
     std::cout << "番号：";
     std::cin >> stateChanger;
