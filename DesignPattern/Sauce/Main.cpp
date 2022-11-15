@@ -36,6 +36,7 @@ int main()
         Composite_Start();
         break;
     case Structure::Decorator_:
+        Decorator_Start();
         break;
     case Structure::Facade_:
         break;
