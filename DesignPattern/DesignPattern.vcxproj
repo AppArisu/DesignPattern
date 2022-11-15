@@ -129,8 +129,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Sauce\Generation.h" />
-    <ClInclude Include="Sauce\Structure.h" />
     <ClInclude Include="Sauce\Chain_of_Responsibility.h" />
     <ClInclude Include="Sauce\Command.h" />
     <ClInclude Include="Sauce\Iterator.h" />
@@ -141,18 +139,6 @@
     <ClInclude Include="Sauce\State.h" />
     <ClInclude Include="Sauce\Template_Method.h" />
     <ClInclude Include="Sauce\Visitor.h" />
-    <ClInclude Include="Sauce\Abstract_Factory.h" />
-    <ClInclude Include="Sauce\Builder.h" />
-    <ClInclude Include="Sauce\Factory_Method.h" />
-    <ClInclude Include="Sauce\Prototype.h" />
-    <ClInclude Include="Sauce\Singleton.h" />
-    <ClInclude Include="Sauce\Adapter.h" />
-    <ClInclude Include="Sauce\Bridge.h" />
-    <ClInclude Include="Sauce\Composite.h" />
-    <ClInclude Include="Sauce\Decorator.h" />
-    <ClInclude Include="Sauce\Facade.h" />
-    <ClInclude Include="Sauce\Flyweight.h" />
-    <ClInclude Include="Sauce\Proxy.h" />
     <ClInclude Include="Sauce\Behavior.h" />
   </ItemGroup>
   <ItemGroup>

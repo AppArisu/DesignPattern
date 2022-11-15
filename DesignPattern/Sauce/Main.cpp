@@ -1,12 +1,6 @@
 // êUÇÈïëÇ¢
 #include"Behavior.h"
 
-// ê∂ê¨
-#include"Generation.h"
-
-// ç\íz
-#include"Structure.h"
-
 enum Behavior
 {
     Chain_of_Responsibility_ = 1,
@@ -19,26 +13,6 @@ enum Behavior
     Strtegy_,
     Template_Method_,
     Visitor_
-};
-
-enum Generation
-{
-    Abstract_Factory_ = 1,
-    Builder_,
-    Factory_Method_,
-    Prototype_,
-    Singleton_
-};
-
-enum Structure
-{
-    Adapter_ = 1,
-    Bridge_,
-    Composite_,
-    Decorator_,
-    Facade_,
-    Flyweight_,
-    Proxy_
 };
 
 int main()
