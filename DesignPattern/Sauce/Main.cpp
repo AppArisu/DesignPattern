@@ -30,6 +30,7 @@ int main()
         Adapter_Start();
         break;
     case Structure::Bridge_:
+        Bridge_Start();
         break;
     case Structure::Composite_:
         break;
