@@ -1,34 +1,6 @@
-// êUÇÈïëÇ¢
-#include"Behavior.h"
-
-// ê∂ê¨
-#include"Generation.h"
-
+#include<iostream>
 // ç\íz
 #include"Structure.h"
-
-enum Behavior
-{
-    Chain_of_Responsibility_ = 1,
-    Command_,
-    Iterator_,
-    Mediator_,
-    Memento_,
-    Observer_,
-    State_,
-    Strtegy_,
-    Template_Method_,
-    Visitor_
-};
-
-enum Generation
-{
-    Abstract_Factory_ = 1,
-    Builder_,
-    Factory_Method_,
-    Prototype_,
-    Singleton_
-};
 
 enum Structure
 {
@@ -46,44 +18,27 @@ int main()
     int stateChanger = 0;
 
     std::cout << "êUÇÈïëÇ¢Ç…ä÷Ç∑ÇÈÇÃÉfÉUÉCÉìÉpÉ^Å[ÉìÇÃó·ÇëIÇ‘ÅF\n" <<
-        "ÇPÅFChain of Responsibility\nÇQÅFCommand\nÇRÅFIterator\nÇSÅFMediator\nÇTÅFMemento\n" <<
-        "ÇUÅFObserver\nÇVÅFState\nÇWÅFStrtegy\nÇXÅFTemplate_Method\nÇPÇOÅFVisitor" << std::endl;
+        "ÇPÅFAdapter\nÇQÅFBridge\nÇRÅFComposite\nÇSÅFDecorator\nÇTÅFFacade\n" <<
+        "ÇUÅFFlyweight\nÇVÅFProxy" << std::endl;
     std::cout << "î‘çÜÅF";
     std::cin >> stateChanger;
     std::cout << std::endl;
 
     switch (stateChanger)
     {
-    case Behavior::Chain_of_Responsibility_:
-        CofR_Start();
+    case Structure::Adapter_:
         break;
-    case Behavior::Command_:
-        Command_Start();
+    case Structure::Bridge_:
         break;
-    case Behavior::Iterator_:
-        Iterator_Start();
+    case Structure::Composite_:
         break;
-    case Behavior::Mediator_:
-        Mediator_Start();
+    case Structure::Decorator_:
         break;
-    case Behavior::Memento_:
-        std::srand(static_cast<unsigned int>(std::time(NULL)));
-        Memento_Start();
+    case Structure::Facade_:
         break;
-    case Behavior::Observer_:
-        Observer_Start();
+    case Structure::Flyweight_:
         break;
-    case Behavior::State_:
-        State_Start();
-        break;
-    case Behavior::Strtegy_:
-        Strategy_Start();
-        break;
-    case Behavior::Template_Method_:
-        TemplateMethod_Start();
-        break;
-    case Behavior::Visitor_:
-        Visitor_Start();
+    case Structure::Proxy_:
         break;
     default:
         std::cout << "âΩÇ‡ÇπÇ∏èIóπÇµÇ‹Ç∑" << std::endl;
