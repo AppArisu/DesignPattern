@@ -80,8 +80,10 @@ int main()
         Strategy_Start();
         break;
     case Behavior::Template_Method_:
+        TemplateMethod_Start();
         break;
     case Behavior::Visitor_:
+        Visitor_Start();
         break;
     default:
         std::cout << "‰½‚à‚¹‚¸I—¹‚µ‚Ü‚·" << std::endl;
