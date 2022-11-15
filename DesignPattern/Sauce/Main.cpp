@@ -17,7 +17,7 @@ int main()
 {
     int stateChanger = 0;
 
-    std::cout << "振る舞いに関するのデザインパターンの例を選ぶ：\n" <<
+    std::cout << "構築に関するのデザインパターンの例を選ぶ：\n" <<
         "１：Adapter\n２：Bridge\n３：Composite\n４：Decorator\n５：Facade\n" <<
         "６：Flyweight\n７：Proxy" << std::endl;
     std::cout << "番号：";
