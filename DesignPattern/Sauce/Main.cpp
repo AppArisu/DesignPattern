@@ -39,6 +39,7 @@ int main()
         Decorator_Start();
         break;
     case Structure::Facade_:
+        Facade_Start();
         break;
     case Structure::Flyweight_:
         break;
