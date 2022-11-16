@@ -36,6 +36,7 @@ int main()
         Prototype_Start();
         break;
     case Generation::Singleton_:
+        Singleton_Start();
         break;
     default:
         std::cout << "‰½‚à‚¹‚¸I—¹‚µ‚Ü‚·" << std::endl;
