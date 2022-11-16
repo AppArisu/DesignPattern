@@ -45,6 +45,7 @@ int main()
         Flyweight_Start();
         break;
     case Structure::Proxy_:
+        Proxy_Start();
         break;
     default:
         std::cout << "‰½‚à‚¹‚¸I—¹‚µ‚Ü‚·" << std::endl;
