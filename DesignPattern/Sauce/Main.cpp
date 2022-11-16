@@ -30,6 +30,7 @@ int main()
         Builder_Start();
         break;
     case Generation::Factory_Method_:
+        FactoryMethod_Start();
         break;
     case Generation::Prototype_:
         break;
