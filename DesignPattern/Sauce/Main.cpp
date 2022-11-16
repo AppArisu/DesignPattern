@@ -24,6 +24,7 @@ int main()
     switch (stateChanger)
     {
     case Generation::Abstract_Factory_:
+        AbstractFactory_Start();
         break;
     case Generation::Builder_:
         break;
