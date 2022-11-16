@@ -33,6 +33,7 @@ int main()
         FactoryMethod_Start();
         break;
     case Generation::Prototype_:
+        Prototype_Start();
         break;
     case Generation::Singleton_:
         break;
