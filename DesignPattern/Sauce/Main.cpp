@@ -27,6 +27,7 @@ int main()
         AbstractFactory_Start();
         break;
     case Generation::Builder_:
+        Builder_Start();
         break;
     case Generation::Factory_Method_:
         break;
