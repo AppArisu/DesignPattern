@@ -42,6 +42,7 @@ int main()
         Facade_Start();
         break;
     case Structure::Flyweight_:
+        Flyweight_Start();
         break;
     case Structure::Proxy_:
         break;
